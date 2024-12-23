@@ -1,4 +1,7 @@
 """Cross Entropy Loss"""
+# 이진분류, 다중분류에 사용되는 손실함수
+# 이진 분류와 다중 클래스 분류 각각에 맞는 수식이 사용
+# 모델의 예측 확률 분포와 실제 라벨 분포 간의 차이를 측정
 
 """Sigmoid"""
 class SigmoidWithLoss:
